@@ -4,7 +4,7 @@
 #include "Game.h"
 #include <iostream>
 using namespace std;
-
+//Constructor
 Game::Game() {}
 
 bool Game::draw(int counter) {
@@ -13,9 +13,11 @@ bool Game::draw(int counter) {
      */
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
+            //check if the board is full with playing chars
             if (arr_board[i][j] == "O" || arr_board[i][j] == "X"){
                 continue;
             }else{
+                // if not there  is no chance for draw
                 return false;
             }
         }
