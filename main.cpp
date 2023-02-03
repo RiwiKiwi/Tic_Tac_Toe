@@ -3,6 +3,6 @@
 using namespace std;
 int main(){
     Game g;
-    g.getchoice();
+    g.getchoice();;
     g.maingameloop();
 }
