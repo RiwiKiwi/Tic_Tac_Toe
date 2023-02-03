@@ -320,8 +320,6 @@ void Game::maingameloop() {
     cout <<"The board looks like this:\n" << endl;
     //displaying the board
     initboard();
-
-    cerr << "Note: Give the desired row and the column to set your char there ! \n"<< endl;
     // this will always tell who's turn is it right now
     counter = 0;
     changer:
